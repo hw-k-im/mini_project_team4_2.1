@@ -16,8 +16,8 @@ spring:
         corsConfigurations:
           '[/**]':
             allowedOrigins:
-              - "https://msa-red.vercel.app"
-              - "https://msateam4.vercel.app"
+              # - "https://msa-red.vercel.app"
+              - "https://mini-project-team4-2-1.vercel.app/"
               - "http://localhost:3000"
             allowedMethods:
               - GET

@@ -16,8 +16,8 @@ public class CorsConfig {
     public CorsWebFilter corsWebFilter() {
         CorsConfiguration corsConfig = new CorsConfiguration();
         corsConfig.setAllowedOrigins(List.of("http://localhost:3000",
-                                            "https://msa-red.vercel.app",
-                                            "https://msateam4.vercel.app"
+                                            // "https://msa-red.vercel.app",
+                                            "https://mini-project-team4-2-1.vercel.app/"
         ));
         corsConfig.setMaxAge(3600L);
         corsConfig.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
