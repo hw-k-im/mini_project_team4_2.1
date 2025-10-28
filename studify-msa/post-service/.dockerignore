@@ -1,0 +1,6 @@
+# 기본적으로 전부 제외
+**
+
+# 런타임 이미지는 JAR만 필요 + Dockerfile만 필요
+!Dockerfile
+!build/libs/*.jar
